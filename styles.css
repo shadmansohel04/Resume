@@ -350,6 +350,24 @@ p{
     color: black;
 }
 
+.TMRUN:active {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color from the parent */
+}
+
+.TMRUN:visited {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color from the parent */
+}
+
+/* Focused link */
+.TMRUN:focus {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color from the parent */
+    outline: none; /* Remove outline */
+}
+
+
 @media(max-width: 576px){
 
 header{
