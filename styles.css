@@ -345,6 +345,11 @@ p{
     text-decoration: none;
 }
 
+.TMRUN{
+    text-decoration: none;
+    color: black;
+}
+
 @media(max-width: 576px){
 
 header{
