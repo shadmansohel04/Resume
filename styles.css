@@ -589,3 +589,12 @@ footer{
 
     }
 }
+
+
+@media(min-width: 2000px){
+    #AboutMeNav a{
+        width: 350px;
+        height: 350px;
+
+    }
+}
