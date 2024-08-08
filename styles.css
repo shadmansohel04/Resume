@@ -84,7 +84,6 @@ header {
     transition: all 1s ease-in-out;
 }
 
-
 .show{
     opacity: 1;
     transform: translateY(0);
@@ -93,9 +92,11 @@ header {
 
 .ProfilePic {
     border-radius: 50%;
-    width: 550px;
-    height: 500px;
+    width: 40vw;
+    height: 37vw;
     margin: 20px;
+    margin-top: 10vw;
+    margin-bottom: 7vw;
 }
 
 #RightSide {
@@ -368,7 +369,7 @@ p{
 }
 
 
-@media(max-width: 576px){
+@media(max-width: 768px){
 
 header{
     padding: 2%;
@@ -389,15 +390,15 @@ body{
 }
 
 .ProfilePic{
-    width: 100%;
+    width: 80vw;
+    height: 80vw;
     order: 2;
     margin-bottom: 40%;
 }
 
 #RightSide{
-    flex:2;
+    width: 90%;
 }
-
 
 #AboutMeText h1 {
     align-self: flex-start;
@@ -558,8 +559,9 @@ footer{
 }
 
 #AboutMeNav a{
-    width: 100px;
-    height: 100px;
+    width: 20vw;
+    height: 20vw;
+    font-size: 0.8rem;
     
 }
 
@@ -586,7 +588,11 @@ footer{
     #AboutMeNav a{
         width: 180px;
         height: 180px;
+    }
 
+    .ProfilePic{
+        width: 30vw;
+        height:28vw;
     }
 }
 
@@ -595,14 +601,10 @@ footer{
     #AboutMeNav a{
         width: 250px;
         height: 250px;
-
     }
-}
 
-@media (min-width: 576px){
-    #RightSide {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }   
+    .ProfilePic{
+        width: 25vw;
+        height: 23vw;
+    }
 }
