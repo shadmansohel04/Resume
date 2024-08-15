@@ -6,14 +6,22 @@ body {
     flex-direction: column;
     align-items: center; /* Center content horizontally within the viewport */
     justify-content: center; /* Center content vertically within the viewport */
-    background-color: #F2F1EB;
+    background-color: #EEE7DA;
     z-index: 1;
     line-height: 1.5;
 }
 
+.backgroundColor{
+    background-color: #F2F1EB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header {
     background-color:#EEE7DA;
-    padding: 3% 0;
+    padding: 2.2% 0;
     width: 100%;
     margin: 0;
 }
