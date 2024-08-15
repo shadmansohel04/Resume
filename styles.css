@@ -9,12 +9,11 @@ body {
     background-color: #F2F1EB;
     z-index: 1;
     line-height: 1.5;
-
 }
 
 header {
     background-color:#EEE7DA;
-    padding: 25px 0;
+    padding: 3% 0;
     width: 100%;
     margin: 0;
 }
@@ -31,7 +30,7 @@ header {
 }
 
 .name{
-    font-size:1.5rem;
+    font-size: 2vw;
     color: black;
     font-weight: bold;
     margin-left: 3%;
@@ -56,9 +55,10 @@ header {
     padding: 8px 15px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 16px; /* Replace px with a valid size */
+    font-size: 1.3vw;
     color: black;
     transition: all 0.3s ease-in-out;
+
 }
 
 .nav-list a:hover {
@@ -71,11 +71,11 @@ header {
 
 #AboutMe {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 80%;
-    height: 500px;
-    margin-top: 20px;
+    width: 90%;
+    margin-top: 4%;
+    align-items: c;
+    overflow: hidden;
 }
 
 .hide{
@@ -92,17 +92,15 @@ header {
 
 .ProfilePic {
     border-radius: 50%;
-    width: 40vw;
-    height: 37vw;
-    margin: 20px;
-    margin-top: 10vw;
-    margin-bottom: 7vw;
+    width: 45%;
+    margin-right: 5%;
+    align-self: center;
 }
 
 #RightSide {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 40%;
 }
 
 #AboutMeText {
@@ -112,13 +110,13 @@ header {
 
 #AboutMeText h1 {
     align-self: flex-start;
-    font-size: 5rem;
+    font-size: 6.5vw;
     margin: 0;
 }
 
 #AboutMeText h4 {
     align-self: flex-start;
-    font-size: 2rem;
+    font-size: 2.7vw;
     margin: 0;
 }
 
@@ -130,8 +128,8 @@ header {
 
 #AboutMeNav a{
     display: flex;
-    width: 130px;
-    height: 130px;
+    width: 10vw;
+    height: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,7 +138,7 @@ header {
     color: black;
     font-weight: 600;
     background-color: #AFC8AD;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 }
@@ -161,15 +159,15 @@ header {
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 2.8vw;
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.8vw;
 }
 
 h4{
-    font-size: 1.2rem;
+    font-size: 1.6vw;
 }
 
 .dates-2{
@@ -178,36 +176,37 @@ h4{
 
 .Work{
     display: flex;
+    justify-content: space-between;
 }
 
 .individual{
     display: flex;
+    justify-content: space-between;
 }
 
 .Jobs{
     width: 65%;
-    margin-left: auto;
     display: flex;
     flex-direction: column;
 }
 
 .individual{
     display: flex;
-    margin-bottom: 20px;
-    padding: 5px;
     align-items:baseline;
+    justify-content: space-between;
 }
 
 .Dates{
-    margin-left: 100px;
-    flex: 1;
+    width: 20%;
+    text-align: right;
 }
 
 .Description{
     display: flex;
     flex-direction: column;
-    flex: 3;
+    width: 70%;
 }
+
 
 .Description ul{
     margin-left: 33%;
@@ -247,7 +246,7 @@ h4{
     display: flex;
     border-top: solid #AFC8AD;
     width: 85%;
-    padding: 10px 20px 40px 20px;
+    padding: 2% 4% 4% 2%;
     justify-content: space-between;
 }
 
@@ -282,34 +281,40 @@ h4{
 
 .forms{
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 4%;
+    justify-content: space-between;
 }
 
 .forms input{
-    padding: 15px;
-    margin: 10px;
+    padding: 3%;
+    margin-right: 2%;
     width: 100%;
     border: solid 1px black;
     color: black;
     border-radius: 2%;
     background-color: #EEE7DA;
+    font-size: 1.1vw;
+    outline: none;
+    font-family: 'montserrat', sans-serif;
+
 }
 
 .forms textarea{
-    padding: 15px;
-    flex: 2;
-    margin: 10px;
+    padding: 3%;
     border: solid 1px black;
     font-family: 'Arial', sans-serif;   
     border-radius: 1%;
     resize: none;
     background-color: #EEE7DA;
+    font-size: 1.1vw;
+    width: 65%;
+    outline: none;
+    font-family: 'montserrat', sans-serif;
 }
 
 .forms button{
-    width: 130px;
-    height: 130px;
+    width: 9vw;
+    height: 9vw;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -317,10 +322,10 @@ h4{
     color: black;
     font-weight: bold;
     background-color: #88AB8E;
-    font-size: 1.2rem;
+    font-size: 1.7vw;
     text-decoration: none;
-    margin: 10px;
     transition: all 0.4s ease-in-out;
+    margin-right: 2%;
 }
 .forms button:hover{
     background-color:  #F2F1EB;
@@ -328,12 +333,14 @@ h4{
 }
 
 p{
-    font-size: 1.1rem;
+    font-size: 1.3vw;
 }
 
-.linked a{
+.phone a{
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.3vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
     
 }
 
@@ -342,8 +349,19 @@ p{
     margin-top: 5.2%;
 }
 
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .phone p{
     text-decoration: none;
+    margin: 0;
+}
+
+.published{
+    margin: 0;
 }
 
 .TMRUN{
@@ -368,8 +386,27 @@ p{
     outline: none; /* Remove outline */
 }
 
+.skillsList{
+    width: 44%;
+}
+
+.skillsList li{
+    font-size: 1.3vw;
+}
 
 @media(max-width: 768px){
+
+h2{
+    font-size: 2.3rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
 
 header{
     padding: 2%;
@@ -385,15 +422,13 @@ body{
 #AboutMe{
     display: flex;
     flex-direction: column;
-    margin-top: 60%;
-    margin-bottom: 20%;
+    align-items: center;
+    margin-bottom: 4%;
 }
 
 .ProfilePic{
     width: 80vw;
-    height: 80vw;
     order: 2;
-    margin-bottom: 40%;
 }
 
 #RightSide{
@@ -414,6 +449,7 @@ body{
 
 .nav-list a{
     display: none;
+    font-size: 16px;
 }
 
 .NavIcon{
@@ -480,7 +516,6 @@ body{
     display: flex;
     padding: 5px;
     flex-direction: column;
-    align-items: center;
 }
 
 .Dates{
@@ -490,7 +525,7 @@ body{
 .Description{
     display: flex;
     flex-direction: column;
-    flex: 3;
+    width: 100%;
 }
 
 .Description ul{
@@ -534,8 +569,28 @@ footer{
     align-items: center;
 }
 
+.HeadOfWork h4{
+    margin: 0;
+}
+
+.HeadOfWork p{
+    margin: 0;
+}
+
+.skillsList li{
+    font-size: 1rem;
+}
+
+.skillsList{
+    padding-left: 8%;
+}
+
 .dates-2{
     display: flex;
+}
+
+.name{
+    font-size: 1.5rem;
 }
 
 .contact{
@@ -544,10 +599,7 @@ footer{
 }
 
 .form{
-    width: 80%;
-    justify-content: center;
-    align-items: center;
-
+    width: 100%;
 }
 
 .forms{
@@ -558,21 +610,44 @@ footer{
     width: 100%;    
 }
 
-#AboutMeNav a{
-    width: 20vw;
-    height: 20vw;
+.forms input{
     font-size: 0.8rem;
-    
+    width: 97%;
+    margin-bottom: 5%;
+    padding: 3%;
 }
 
 .forms textarea{
-    width: 100%;
-    padding: 15px;
+    font-size: 0.8rem;
+    width: 97%;
+    padding: 3%;
+    margin-bottom: 5%;
+}
+
+p{
+    font-size: 1rem;
+}
+
+#AboutMeNav{
+    margin-bottom: 6%;
+}
+
+#AboutMeNav a{
+    width: 23vw;
+    height: 23vw;
+    font-size: 1rem;
+    
 }
 
 .forms button{
-    width: 100px;
-    height: 100px;
+    width: 30vw;
+    height: 30vw;
+    font-size: 1rem;
+}
+
+.phone a{
+    font-size: 1rem;
+    margin-bottom: 10%;
 }
 
 .NavIcon{
@@ -581,30 +656,4 @@ footer{
     margin-right: 5px;
 }
 
-}
-
-
-@media(min-width: 1400px){
-    #AboutMeNav a{
-        width: 180px;
-        height: 180px;
-    }
-
-    .ProfilePic{
-        width: 30vw;
-        height:28vw;
-    }
-}
-
-
-@media(min-width: 1700px){
-    #AboutMeNav a{
-        width: 250px;
-        height: 250px;
-    }
-
-    .ProfilePic{
-        width: 25vw;
-        height: 23vw;
-    }
 }
