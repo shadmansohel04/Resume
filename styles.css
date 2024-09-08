@@ -45,6 +45,11 @@ header {
     transition: all 0.2s ease-in-out;
 }
 
+.name a{
+    text-decoration: none;
+    color: black;
+}
+
 .hideName{
     opacity: 0;
     transition: all 0.2s ease-in-out;
