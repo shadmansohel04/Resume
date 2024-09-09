@@ -170,6 +170,7 @@ header {
     margin-top: 60px;
     display: flex;
     padding: 20px;
+    padding-top: 43px;
     width: 75%;
     justify-content: space-between;
     flex-direction: column;
