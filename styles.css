@@ -11,6 +11,10 @@ body {
     line-height: 1.5;
 }
 
+.NavMobile{
+    display: none;
+}
+
 .backgroundColor{
     background-color: #F2F1EB;
     width: 100%;
@@ -21,13 +25,16 @@ body {
 
 header {
     background-color:#EEE7DA;
-    padding: 2.2% 0;
+    padding: 0.7% 0;
     width: 100%;
     margin: 0;
+    position: fixed;
+    z-index: 10;
 }
 
 .nav-list-mobile{
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -86,7 +93,7 @@ header {
     display: flex;
     justify-content: center;
     width: 90%;
-    margin-top: 4%;
+    margin-top: 8%;
     overflow: hidden;
 }
 
@@ -421,8 +428,8 @@ h4{
 }
 
 header{
-    padding: 2%;
     transition: all 0.7 ease-in-out;
+    position: relative;
 }
 
 body{
@@ -468,37 +475,27 @@ body{
     display: inline;
 }
 
-
 .nav-list-mobile{
     background-color: #EEE7DA;
-    width: 100vw;
-    height: 100vh;
     margin: 0;
     list-style: none;
     display: flex;
+    height: 0;
+    overflow: hidden;
     flex-direction: column;
     align-items: center;
-    transition: all 2s ease-in-out;
-    display: none;
-}
-
-@keyframes fadeIn {
-  from {
-    display: none;
+    transition: all 1s ease-in-out;
+    padding: 0;
     opacity: 0;
-    transform: translateY(-60px); /* Adjust the distance you want the element to slide down */
-  }
-  to {
-    display: flex;
-    opacity: 1;
-    transform: translateY(0);
-  }
+    transform: translateY(-100px);
 }
 
 .showNav {
-    display: flex; /* Set the initial state to flex */
-    opacity: 1; /* Set the initial opacity */
+    height: 100vh;
+    padding-top: 20%;
     animation: fadeIn 0.5s ease-in-out; /* Apply the animation with a duration and timing function */
+    opacity: 1;
+    transform: translateY(0px); /* Adjust the distance you want the element to slide down */
 }
 
 .nav-list-mobile li{
@@ -510,6 +507,11 @@ body{
     font-size: 1.5rem;
     color: black;
     font-weight: bold;
+}
+
+.NavMobile{
+    width: 100%;
+    display:block;
 }
 
 .Work{
