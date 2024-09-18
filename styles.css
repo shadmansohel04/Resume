@@ -260,6 +260,14 @@ h4{
     margin-left: 40px;
     margin-top: 10px;
     align-self: center;
+    transform: translateY(0px);
+    transition: all 0.3s ease-in-out;
+}
+
+.clickable:hover{
+    width: 103%;
+    opacity: 0.8;
+    cursor: pointer;;
 }
 
 .footer{
