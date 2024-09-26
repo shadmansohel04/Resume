@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     aboutMe.classList.add('show');
 
+    window.addEventListener("scroll", downUp)
+
     window.addEventListener('scroll', reveal);
     addSmoothScrollListeners();
 
@@ -69,4 +71,24 @@ function showNav() {
         main.classList.add('hideName');
         navmobile.classList.add('showNav');
     }
+}
+
+let prev = 0
+
+function downUp(){
+    console.log("reunn")
+    var width = window.innerWidth
+    if(width < 768){
+        return
+    }
+    var header = document.querySelector("header")
+    let scrollTop = window.scrollY
+    if(scrollTop > prev){
+        header.classList.add("removeHeader")
+    }
+    else{
+        header.classList.remove("removeHeader")
+    }
+    prev = scrollTop
+
 }
