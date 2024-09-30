@@ -172,6 +172,23 @@ header {
     cursor: pointer;
 }
 
+.symbols{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.symbol{
+    margin-right: 5%;
+    display: flex;
+    align-items: end;
+    height: fit-content;
+}
+
+.symbol img{
+    width: 3vw;
+}
+
 .Resume{
     margin-top: 60px;
     display: flex;
@@ -435,6 +452,11 @@ p{
     font-size: 1.3vw;
 }
 
+.horPhone{
+    display: flex;
+    width: 60%;
+}
+
 @media(max-width: 768px){
 
 h2{
@@ -653,6 +675,35 @@ footer{
     padding: 3%;
 }
 
+.leftCont{
+    margin-bottom: 5%;
+}
+
+
+.symbol img{
+    width: 25px;
+}
+
+.horPhone{
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 6%;
+}
+
+.mobSim{
+    align-self: flex-start;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.mobSim a{
+    margin-right: 15%;
+}
+
+.mobSim img{
+    width: 40px;
+}
+
 .forms textarea{
     font-size: 0.8rem;
     width: 97%;
@@ -679,6 +730,14 @@ p{
     width: 30vw;
     height: 30vw;
     font-size: 1rem;
+}
+
+.symbols{
+    justify-content: start;
+}
+
+.phone{
+    margin-bottom: 4%;
 }
 
 .phone a{
